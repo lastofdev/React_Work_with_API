@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.buttonGO{
+  width: 200px;
+  height: 100px;
+  background-color: chocolate;
+}
+.buttonAdd{
+  min-width: 80px;
+  height: 40px;
+  font-size: 12px;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 2px;
+  
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerJoke{
+  width: 320px;
+  background-color: lightsalmon;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+.controls{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.favs{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.loveJoke{
+  background-color: palevioletred;
+}
+.remove{
+  background-color: black;
+}
